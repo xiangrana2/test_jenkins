@@ -1,0 +1,10 @@
+Started by user [8mha:AAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZh/dLi1CL9xJzsxLyqRN3ElNzMPAAcCiw4yAAAAA==[0mAdmin
+Building in workspace /var/jenkins/workspace/SeleniumJob
+[SeleniumJob] $ /bin/sh -xe /tmp/shiningpanda6151710410790632504.sh
++ python /www/alkanza-ic/tests/alkanza-example.py
+.
+----------------------------------------------------------------------
+Ran 1 test in 9.691s
+
+OK
+Finished: SUCCESS

@@ -1,0 +1,19 @@
+Started by user [8mha:AAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZh/dLi1CL9xJzsxLyqRN3ElNzMPAAcCiw4yAAAAA==[0mAdmin
+Building in workspace /var/jenkins/workspace/SeleniumJob
+[SeleniumJob] $ /bin/sh -xe /tmp/shiningpanda4075909469257738131.sh
++ python /www/alkanza-ic/tests/alkanza-example.py
+E
+======================================================================
+ERROR: test_url (__main__.AlkanzaExample)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/www/alkanza-ic/tests/alkanza-example.py", line 14, in test_url
+    print button
+UnicodeEncodeError: 'ascii' codec can't encode character u'\xed' in position 40: ordinal not in range(128)
+
+----------------------------------------------------------------------
+Ran 1 test in 9.453s
+
+FAILED (errors=1)
+Build step 'Python Builder' marked build as failure
+Finished: FAILURE

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <jenkins.plugins.shiningpanda.builders.PythonBuilder plugin="shiningpanda@0.23">
+      <pythonName>System-CPython-2.7</pythonName>
+      <nature>shell</nature>
+      <command>python /www/alkanza-ic/tests/alkanza-example.py</command>
+      <ignoreExitCode>false</ignoreExitCode>
+    </jenkins.plugins.shiningpanda.builders.PythonBuilder>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>
